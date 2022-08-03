@@ -52,7 +52,7 @@ public enum SettingsEnum {
     AUTOPLAY_BUTTON_SHOWN("revanced_autoplay_button_enabled", false, ReturnType.BOOLEAN, true),
     //ToDo: Not used atm, Patch missing
     USE_TABLET_MINIPLAYER("revanced_tablet_miniplayer", false, ReturnType.BOOLEAN),
-    CREATE_BUTTON_SHOWN("revanced_create_button_enabled", false, ReturnType.BOOLEAN, true),
+    CREATE_BUTTON_HIDDEN("revanced_create_button_enabled", true, ReturnType.BOOLEAN, true),
     USE_NEW_ACTIONBAR("revanced_new_actionbar", false, ReturnType.BOOLEAN, true),
     SHORTS_BUTTON_SHOWN("revanced_shorts_button_enabled", false, ReturnType.BOOLEAN, true),
     FULLSCREEN_PANELS_SHOWN("revanced_fullscreen_panels_enabled", false, ReturnType.BOOLEAN), //ToDo: Add to prefs
